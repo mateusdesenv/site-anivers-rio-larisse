@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Para o amor da minha vida 💖</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="orbs">
+    <span></span><span></span><span></span>
+  </div>
+
+  <header class="header">
+    <a class="brand" href="#inicio" aria-label="Voltar ao início">
+      <span class="brand__icon">&lt;/&gt;</span>
+      <span>
+        <strong>nossoamor.dev</strong>
+        <small>feito com amor e código</small>
+      </span>
+    </a>
+
+    <button class="menu-btn" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav">
+      <a href="#inicio" class="active">Início</a>
+      <a href="#historia">Nossa História</a>
+      <a href="#mensagens">Mensagens</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#carta">Carta</a>
+    </nav>
+
+    <a class="header__cta" href="#carta">♡ Para você</a>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero section">
+      <div class="hero__content reveal">
+        <span class="eyebrow">✨ Hoje é o seu dia ✨</span>
+        <h1>Feliz aniversário,<br><span>meu amor</span></h1>
+        <p>
+          Cada linha deste site foi escrita pensando em você. Um cantinho nosso,
+          com memórias, sorrisos e todo o amor que eu consigo transformar em código.
+        </p>
+        <strong class="hero__love">Obrigado por existir. 💖</strong>
+
+        <div class="code-card">
+          <div class="code-card__bar">
+            <i></i><i></i><i></i>
+            <span>amor.exe</span>
+          </div>
+          <pre><code>if (amor) {
+  felicidade = infinito;
+  juntos = paraSempre();
+}
+
+// você é meu programa favorito 💗</code></pre>
+        </div>
+      </div>
+
+      <div class="hero__photos reveal delay-1" id="galeria">
+        <button class="photo-main photo-open" data-img="assets/img/rio-01.jpg" data-title="Meu lugar favorito é ao seu lado">
+          <img src="assets/img/rio-01.jpg" alt="Casal sorrindo perto do rio" />
+          <span>♡</span>
+        </button>
+        <div class="photo-grid">
+          <button class="photo-card photo-open" data-img="assets/img/praia-01.jpg" data-title="Nossa vibe de praia">
+            <img src="assets/img/praia-01.jpg" alt="Casal na praia" />
+          </button>
+          <button class="photo-card photo-open" data-img="assets/img/elevador-01.jpg" data-title="Até no elevador vira lembrança">
+            <img src="assets/img/elevador-01.jpg" alt="Selfie no elevador" />
+          </button>
+          <button class="photo-card photo-open" data-img="assets/img/elevador-02.jpg" data-title="Pequenos momentos, grandes histórias">
+            <img src="assets/img/elevador-02.jpg" alt="Selfie sorrindo no elevador" />
+          </button>
+          <button class="photo-card photo-open" data-img="assets/img/sol-01.jpg" data-title="O sol combina com o teu sorriso">
+            <img src="assets/img/sol-01.jpg" alt="Selfie com luz do sol" />
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="historia" class="timeline section reveal">
+      <div class="section-title">
+        <span>💓</span>
+        <div>
+          <small>nossa linha do tempo</small>
+          <h2>Capítulos bonitos da nossa história</h2>
+        </div>
+      </div>
+
+      <div class="timeline__track">
+        <article class="moment-card">
+          <div class="moment-card__icon">📅</div>
+          <h3>Nosso começo</h3>
+          <p>O destino caprichou quando colocou você no meu caminho.</p>
+          <img src="assets/img/trilha-01.jpg" alt="Foto de um momento juntos" />
+        </article>
+
+        <article class="moment-card">
+          <div class="moment-card__icon">🌊</div>
+          <h3>Primeira viagem</h3>
+          <p>Novos lugares ficaram ainda melhores porque eram com você.</p>
+          <img src="assets/img/praia-01.jpg" alt="Foto na praia" />
+        </article>
+
+        <article class="moment-card">
+          <div class="moment-card__icon">📸</div>
+          <h3>Todo dia vira memória</h3>
+          <p>Até uma selfie de elevador consegue virar lembrança favorita.</p>
+          <img src="assets/img/elevador-03.jpg" alt="Selfie no elevador" />
+        </article>
+
+        <article class="moment-card">
+          <div class="moment-card__icon">☀️</div>
+          <h3>Teu sorriso</h3>
+          <p>É o detalhe que deixa qualquer dia mais leve e bonito.</p>
+          <img src="assets/img/sol-01.jpg" alt="Casal sorrindo com sol" />
+        </article>
+
+        <article class="moment-card">
+          <div class="moment-card__icon">🚀</div>
+          <h3>O futuro é nosso</h3>
+          <p>Ainda tem muito capítulo lindo para a gente construir.</p>
+          <img src="assets/img/elevador-04.jpg" alt="Casal no elevador" />
+        </article>
+      </div>
+    </section>
+
+    <section class="gallery section reveal">
+      <div class="section-title">
+        <span>🖼️</span>
+        <div>
+          <small>galeria</small>
+          <h2>Nossos momentos em tela cheia</h2>
+        </div>
+      </div>
+
+      <div class="masonry">
+        <button class="photo-open tall" data-img="assets/img/praia-01.jpg" data-title="Praia"><img src="assets/img/praia-01.jpg" alt="Praia" /></button>
+        <button class="photo-open" data-img="assets/img/rio-01.jpg" data-title="Rio"><img src="assets/img/rio-01.jpg" alt="Rio" /></button>
+        <button class="photo-open" data-img="assets/img/elevador-01.jpg" data-title="Elevador"><img src="assets/img/elevador-01.jpg" alt="Elevador" /></button>
+        <button class="photo-open tall" data-img="assets/img/elevador-02.jpg" data-title="Selfie"><img src="assets/img/elevador-02.jpg" alt="Selfie" /></button>
+        <button class="photo-open" data-img="assets/img/sol-01.jpg" data-title="Sol"><img src="assets/img/sol-01.jpg" alt="Sol" /></button>
+        <button class="photo-open" data-img="assets/img/trilha-01.jpg" data-title="Aventura"><img src="assets/img/trilha-01.jpg" alt="Aventura" /></button>
+      </div>
+    </section>
+
+    <section id="carta" class="letter section reveal">
+      <div class="letter__card">
+        <div class="heart-pulse">♡</div>
+        <h2>Você é a melhor parte dos meus dias.</h2>
+        <p>
+          Este site é só um pedacinho do quanto você é especial para mim.
+          Obrigado por ser minha paz, minha risada favorita e meu lugar seguro.
+        </p>
+        <button class="primary-btn" id="openLetter">Abrir carta</button>
+        <small>Feito com 💗, cerveja e muitas linhas de código.</small>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal" id="letterModal" aria-hidden="true">
+    <div class="modal__overlay" data-close></div>
+    <article class="modal__content">
+      <button class="modal__close" data-close aria-label="Fechar">×</button>
+      <span class="eyebrow">minha carta para você</span>
+      <h2>Feliz aniversário, meu amor 💖</h2>
+      <p>
+        Hoje é o seu dia, mas quem ganhou o presente fui eu: ter você na minha vida.
+        Obrigado por cada sorriso, cada abraço, cada conversa e por transformar os dias simples em memórias bonitas.
+      </p>
+      <p>
+        Quero continuar construindo nossa história com calma, amor, parceria e muitos momentos que ainda vamos viver.
+        Você é meu código favorito, minha melhor escolha e a parte mais bonita da minha rotina.
+      </p>
+      <!-- <strong>Eu te amo. Para sempre nós. ♡</strong> -->
+    </article>
+  </div>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lightbox__overlay" data-lightbox-close></div>
+    <figure class="lightbox__content">
+      <button class="lightbox__close" data-lightbox-close aria-label="Fechar imagem">×</button>
+      <img src="" alt="Foto ampliada" id="lightboxImg" />
+      <figcaption id="lightboxTitle"></figcaption>
+    </figure>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
